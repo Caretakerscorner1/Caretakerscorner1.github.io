@@ -1,0 +1,17 @@
+/*Link styling*/
+#resumeLink {
+    padding: 10px;
+    border: 10px light brown;
+    background-color: #ff0e6;
+    margin: 10px;
+    position: fixed;
+    top: 30px;
+    right: 0px;
+}
+
+H1 { color: #993d00; }
+	Body {
+	    background-color: #fff0e6;
+	    color: #6e2c00 
+	}
+
