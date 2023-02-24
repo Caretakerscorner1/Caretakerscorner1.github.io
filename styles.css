@@ -1,12 +1,6 @@
-H1 { color: #993d00; }
-Body {
-    background-color: #fff0e6;
-    color: #6e2c00 
-}
-
 /*Link styling*/
 #resumeLink {
-    padding: 5px;
+    padding: 10px;
     border: 5px solid lightbrown;
     background-color: #fff0e6;
     margin: 10px;
@@ -14,3 +8,9 @@ Body {
     top: 0px;
     right: 0px;
 }
+H1 { color: #993d00; }
+Body {
+    background-color: #fff0e6;
+    color: #6e2c00 
+}
+
