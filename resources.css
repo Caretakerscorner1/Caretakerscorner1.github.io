@@ -1,6 +1,6 @@
 .firstParagraph::first-letter {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #067654;
+    color: Red;
 }
 
 /*no pseudo selector needed*/
