@@ -1,0 +1,121 @@
+nav ul 
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F9E795;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+nav ul li
+{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+
+nav ul li a
+{
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    width: auto;
+
+    display: inline-block;
+}
+
+nav ul li ul
+{
+    position: absolute;
+    display: none;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+/*So the anchor text will actually show up as white*/
+nav ul li a:link
+{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+/*To avoid the links having default browser styling when already visisted*/
+nav ul li a:visited
+{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+/*Underline the link when hovered over and change background color*/
+nav ul li a:hover
+{
+    font-style: normal;
+    color: white;
+    text-decoration: underline;
+    background-color: #622707;
+}
+
+nav ul li a:active
+{
+    font-style: italic;
+    color: white;
+    text-decoration: underline;
+    background-color: #622707;
+}
+
+.mobileMenuWrapper {
+    display: none;
+}
+#toggle {
+    display: none;
+}
+#hamburger {
+    display: none;
+    width: 26px;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 800px) {
+    .mobileMenuWrapper {
+        display: block; 
+    }
+    #hamburger {
+		display: block;
+        cursor: pointer;
+        background-color: #B34409;
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.5em;
+        color: white;
+	}
+    .menu {
+        display: none;
+    }
+    #toggle:checked ~ .menu { /*using sibling selector, that is why this is possible!*/
+        display: block;
+	}
+    .menuItem a {
+        width: 100%;
+	}
+    nav:hover #mobileHide {
+		display: none;
+	}
+}
