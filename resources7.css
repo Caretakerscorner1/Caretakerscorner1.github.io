@@ -1,0 +1,11 @@
+
+.firstParagraph::first-letter {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: Red;
+}
+
+/*no pseudo selector needed*/
+.followingParagraph {
+    text-indent: 1em; /*indent units should be based on font size*/
+}
+
