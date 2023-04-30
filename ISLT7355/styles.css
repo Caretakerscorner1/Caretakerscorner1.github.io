@@ -1,0 +1,151 @@
+/*get rid of the default margins and padding for body*/
+
+/***************************GLOBAL *************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  p, h1, h2, h3,
+  blockquote {
+    margin: 0 5%;;
+  }
+
+  main {
+    width: 100%;
+  }
+
+/***************************HOME*************************/
+
+
+  .button{
+    display: inline-block;
+    border-radius: 4px;
+    color: black;
+    background-color: #f9e795;
+    font-size: 1.5rem;
+    padding: 5px 25px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 40%;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    border-radius: 20px;
+    transition: all 0.5s;
+  }
+  .button:hover{
+    background: brown;
+    color: white;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    color: white;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .h1Home {
+    margin-top: 5%;
+   text-align: center;
+  }
+
+.about_main{
+    width: 100%;
+}
+
+figure{
+    text-align: center;
+}
+
+
+.container {
+    border-radius: 5px;
+   background-color: #f9e795;
+    color: black;
+    padding: 20px;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    max-width: 800px;
+  }
+  
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: brown;
+    color: white;
+    font-size: 17px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+  }
+/***************************FOOTER************************/
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #f9e795;
+    color: black;
+    text-align: center;
+    padding: 2rem 3rem;
+    top: 0;
+  
+  }
+  
+
+/***************************MEDIA QUERIES  *************************/
+
